@@ -1,0 +1,120 @@
+*,::after,::before{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  margin: 0 100px;
+  background-color: rgb(77, 210, 240);
+}
+
+
+
+.nav{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 0; 
+}
+
+.nav .logo h1{
+   font-weight: 600;
+   font-family: sans-serif;
+   color: black;
+}
+
+.nav .logo b{
+   color: rgb(221, 108, 60);
+}
+
+.nav ul{
+   display: flex;
+   list-style: none;
+}
+.nav ul li{
+   margin-right: 30px;
+}
+.nav ul li a{
+   text-decoration:none ;
+   color: black;
+   font-weight: 500;
+   font-family: sans-serif;
+   font-size: 17px;
+}
+
+.My{
+  width: 250px;
+  
+}
+.img{
+   display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.bioo{
+   font-family: sans-serif;
+}
+
+.bioo:hover{
+ color:  chocolate ;
+}
+
+.My:hover{
+   transform: scale(.9) ;
+}
+.skills{
+   font-family: sans-serif;
+ }
+
+ .sk{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   list-style: none;
+ }
+
+ .skills:hover{
+   color: crimson ;
+ }
+
+
+
+
+.Pro-name{
+ list-style: none;
+ text-decoration:none ;
+   color: black;
+   font-weight: 500;
+   font-family: sans-serif;
+   font-size: 17px;
+
+}
+
+
+ .ph{
+   width: 950px;
+ }
+
+ .ph:hover{
+   transform: scale(.9) ;
+ }
+
+ .REE{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+   left: 50%;
+   text-decoration:none ;
+   color: orange;
+    
+ }
+
+ 
+ .copyright{
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  
+ }
